@@ -7,6 +7,7 @@ import Color from "./components/Color";
 import UpdateFunc from "./assets/Tutorial/UpdateFunc";
 import UseEffect from "./assets/Tutorial/useEffect";
 import RandomGift from "./components/RandomGift";
+import TwoWayBinding from "./assets/Tutorial/two-way-binding";
 function App() {
   const fruits = [
     { id: 1, name: "apple" },
@@ -24,6 +25,7 @@ function App() {
       <UpdateFunc />
       <UseEffect />
       <RandomGift />
+      <TwoWayBinding />
     </>
   );
 }
